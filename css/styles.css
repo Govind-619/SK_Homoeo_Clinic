@@ -1,0 +1,40 @@
+.hero-section {
+    background: url(https://t4.ftcdn.net/jpg/03/65/59/15/360_F_365591556_q2xHXRo7woO1JBMFNkxOD5mQv1PfIdMz.jpg) no-repeat center center/cover;
+    min-height: 50vh;
+}
+
+.service-icon {
+    font-size: 40px;
+    color: #007bff;
+}
+
+footer {
+    font-size: 14px;
+}
+.divider {
+    position: relative;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #6c757d;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    display: block;
+    width: 40%;
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
